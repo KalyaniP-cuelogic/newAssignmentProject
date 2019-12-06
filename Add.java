@@ -13,8 +13,7 @@ static int add( int x, int y){
 	return x+y;
 }
 static int subtraction(int x,int y){
-    return y-x;
-
+    return Math.abs(y-x);
 }
 
 static int multiplication(int x,int y){
